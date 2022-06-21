@@ -1,0 +1,289 @@
+*, *::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body h1 p {
+  font-family: 'Bai Jamjuree', sans-serif;
+  margin: 0;
+  padding: 0
+}
+
+.header {
+  background-image: url('images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+section {
+  display: flex;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.top img {
+  margin-top: 130px;
+}
+
+
+h1 {
+  font-size: 50px;
+  margin-top: 65px;
+  font-weight: 600;
+  text-align: center;
+  color: #52585E;
+}
+
+.toptitle {
+  text-align: center;
+  padding-right: 40px;
+  padding-right: 40px;
+}
+
+p {
+  font-size: 18px;
+  color: #AAADB2;
+}
+
+.toptitle p {
+  margin: 20px auto;
+  max-width: 620px;
+ }
+
+.buttons {
+  cursor: pointer;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bgreen {
+  cursor: pointer;
+  border-radius: 40px;
+  background-color: hsl(171, 66%, 44%);
+  width: 225px;
+  height: 55px;
+  margin-right: 10px;
+  box-shadow: 0px 4px 0px 0px rgba(30, 144, 127, 100%)
+}
+
+.bblue {
+  border-radius: 40px;
+  background-color: hsl(233, 100%, 69%);
+  width: 225px;
+  height: 55px;
+  box-shadow: 0px 4px 0px 0px rgba(81, 98, 227, 100%)
+}
+
+.bgreen:hover {
+  box-shadow: none;
+  transition: 0.5s;
+}
+
+.bblue:hover {
+  box-shadow: none;
+  transition: 0.5s;
+}
+
+.bgreen p{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.bblue p{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  font-size: 36px;
+  color: #52585E;
+  font-weight: 600;
+}
+.toptitle h2 {
+  margin-top: 150px;
+}
+
+.mid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+.mid img {
+  margin-top: 50px;
+  margin-left: -30px;
+}
+
+.atributs {
+  margin-top: 120px;
+  margin-left: -200px;
+
+}
+
+.info {
+  font-size: 18px;
+  color: #AAADB2;
+  max-inline-size:390px;
+}
+
+.highlight {
+  margin-top: 50px;
+  color: #52585E;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.acess {
+  display: flex;
+  justify-content: center;
+}
+
+.acess h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.acess p {
+  margin-top: 30px;
+  text-align: center;
+  max-width: 700px;
+}
+
+.devices {
+  display: flex;
+  justify-content: center;
+  margin: 70px auto;
+}
+
+.workflow {
+  display: flex;
+  justify-content: center;
+  grid-row: auto;
+}
+
+.workflow p {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.destaq {
+  display: flex;
+}
+
+.destaq ul {
+  list-style: none;
+  margin-top: 40px;
+  text-align: center;
+}
+ 
+.destaq ul li h3 {
+  margin-top: 30px;
+  color: #52585E;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.destaq ul li p {
+  margin-top: 20px;
+}
+
+.destaq h2 {
+  text-align: center;
+}
+
+.marcas img {
+  margin-top: 170px;
+  padding: 35px;
+}
+
+.footer {
+  margin-top: 150px;
+  width: 100%;
+  height: 150px;
+  background-color: #F5F6F8;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+ 
+}
+
+.container .logo {
+  cursor: pointer;
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-top: 40px;
+}
+
+.footer .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+}
+
+.footer .container ul {
+  margin-top: 20px;
+  list-style: none;
+  color: #4D565D;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Bai Jamjuree', sans-serif;
+  line-height: 50px;
+}
+
+.footer .container ul li{
+  cursor: pointer;
+}
+
+
+.social {
+  justify-content: right;
+  display: flex;
+  margin-top: 60px;
+  height: 25px;
+}
+
+.social img {
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.attribution { 
+  background-color: hsl(171, 66%, 44%);
+  font-size: 18px; 
+  text-align: center; 
+  color: black;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+.attribution a { 
+  color: #F5F6F8; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+@media (max-width: 900px) {
+  .header {
+    background-image: url('images/bg-header-desktop.png');
+    width: 900px;
+  }
+}
+
+
+
