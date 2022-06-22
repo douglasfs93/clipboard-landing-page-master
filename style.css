@@ -44,7 +44,6 @@ h1 {
 .toptitle {
   text-align: center;
   padding-right: 40px;
-  padding-right: 40px;
 }
 
 p {
@@ -309,8 +308,12 @@ h2 {
 
   .mid {
     display: flex;
-    
   }
+
+  .devices {
+    width: 829px;
+  }
+
   .atributs {
     position: relative;
     margin-left: 0px;
@@ -341,6 +344,11 @@ h2 {
   .toptitle h1 {
     max-width: 720px;
   }
+
+  .devices {
+    width: 729px;
+  }
+
   .buttons {
     margin: auto;
     cursor: pointer;
@@ -348,13 +356,12 @@ h2 {
     display: flex;
     flex-direction: none;
     flex-wrap: wrap;
-
   }
+
   .bgreen {
     width: 525px;
     height: 55px;
     margin-right: 0px;
-
   }
   
   .bblue {
@@ -387,22 +394,22 @@ h2 {
     display: block;
     text-align: center;
   }
+}
 
-  @media (max-width: 750px) {
-    .container{
-      width: 540px;
-      margin: 0 auto;
-    }
-    .mid {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .devices {
-      width: 529px;
-    }
+@media (max-width: 750px) {
+  .container{
+    width: 540px;
+    margin: 0 auto;
+  }
+  .mid {
+    display: flex;
+    flex-wrap: wrap;
   }
 
+  .devices {
+    width: 529px;
+  }
+  
   .destaq {
     text-align: center;
     flex-wrap: wrap;
@@ -428,47 +435,171 @@ h2 {
     padding: none;
     margin-top: 50px;
   }
+}
 
-  @media (max-width: 620px) {
-    .bgreen {
-      width: 425px;
-      height: 55px;
-      margin-right: 0px;
-    }
-    
-    .bblue {
-      width: 425px;
-      height: 55px;
-    }
+@media (max-width: 620px) {
+  .bgreen {
+    width: 425px;
+    height: 55px;
+    margin-right: 0px;
+  }
+  
+  .bblue {
+    width: 425px;
+    height: 55px;
+  }
 
-    .acess p {
-      max-width: 480px;
-    }
+  .acess p {
+    max-width: 480px;
   }
 
   .toptitle p {
     max-width: 480px;
   }
+}
 
-  @media (max-width: 557px) {
-    .mid img {
-      width:320px;
-      height: 243.18px;
-    }
+@media (max-width: 557px) {
+  .bgreen {
+    width: 300px;
+    height: 55px;
+    margin-right: 0px;
+  }
 
-    .devices {
-      width: 320px;
-    }
+  .toptitle {
+    padding-right: 0px;
+  }
+  
+  .bblue {
+    width: 300px;
+    height: 55px;
+  }
+  
+  .mid img {
+    width:320px;
+    height: 243.18px;
+  }
 
-    .toptitle p {
-      max-width: 400px;
-    }
+  .devices {
+    width: 320px;
+  }
 
-    .acess p {
-      max-width: 400px;
-    }
+  .toptitle p {
+    max-width: 400px;
+  }
+
+  .acess p {
+    max-width: 400px;
+  }
+
+  .container {
+    width: 517px;
   }
 }
 
+@media (max-width: 500px) {
+  .header{
+    background-image: url('images/bg-header-mobile.png');
+    background-repeat: repeat;
+    width: 100%;
+  }
+  h1 {
+    font-size: 38px;
+    max-width: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  h2{
+    font-size: 34px;
+    max-width: 440px;
+  }
 
+  .acess h2 {
+    text-align: center;
+  }
 
+  .workflow {
+    display: block;
+    text-align: center;
+    max-width: 330px;
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 440px;
+  }
+
+  .atributs .highlight {
+    font-size: 24px;
+  }
+
+  .atributs p {
+    max-width: 280px;
+  }
+
+  .acess p {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 280px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 400px){
+  .header{
+    background-image: url('images/bg-header-mobile.png');
+    background-repeat: repeat;
+    width: 100%;
+  }
+
+  .mid img {
+    margin-top: 40px;
+    width:280px;
+    height: 212.18px;
+  }
+
+  h1 {
+    font-size: 32px;
+    max-width: 360px;
+  }
+
+  .toptitle p {
+    max-width: 280px;
+  }
+
+  .bgreen {
+    width: 250px;
+    height: 55px;
+    margin-right: 0px;
+  }
+  
+  .bblue {
+    width: 250px;
+    height: 55px;
+  }
+
+  h2{
+    font-size: 28px;
+    max-width: 340px;
+    text-align: center;
+  }
+
+  .atributs .highlight {
+    font-size: 24px;
+  }
+
+  .atributs p {
+    max-width: 280px;
+  }
+
+  .acess p {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 280px;
+    margin-top: 20px;
+  }
+
+  .container {
+    width: 360px;
+  }
+}
